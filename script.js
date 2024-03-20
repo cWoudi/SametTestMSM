@@ -79,11 +79,11 @@ function calculateAndDisplayResults() {
     const d3 = dimension3 / 1000;
 
     if (selectedArticle === 'Article 1') {
-        quantiteBoisM2 = d1 * d2 * d3;
+        quantiteBoisM2 = d1 * d2;
         prix = quantiteBoisM2 * bois[selectedBois];
 
     } else if (selectedArticle === 'Article 2') {
-        quantiteBoisM2 = d1 * d2 * d3;
+        quantiteBoisM2 = d1 * d2;
         prix = quantiteBoisM2 * bois[selectedBois];
 
     } else if (selectedArticle === 'Article 3') {
