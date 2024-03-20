@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculateur de Prix et Quantité de Bois</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="app">
+        <h1>Calculateur de Prix et Quantité de Bois</h1>
+        
+        <div id="input-section">
+            <div id="nom-article">
+            </div>
+
+            <label for="type-article">Type d'article :</label>
+            <select id="type-article">
+            </select>
+
+            <label for="dimension1">Dimension 1 :</label>
+            <input type="number" id="dimension1" min="0" step="1">
+
+            <label for="dimension2">Dimension 2 :</label>
+            <input type="number" id="dimension2" min="0" step="1">
+
+            <label for="dimension3">Dimension 3 :</label>
+            <input type="number" id="dimension3" min="0" step="1">
+
+            <label for="bois">Type de bois :</label>
+            <select id="bois">
+            </select>
+        </div>
+        
+        <div id="output-section">
+            <h2>Résultats</h2>
+            <div id="texte-a-afficher">
+                <p id="output-texte">Texte : </p>
+            </div>
+            <div id="prix">
+                <p id="output-prix">PRIX :</p>
+            </div>
+            <div id="quantite-bois-m2">
+                <p id="output-quantite">QUANTITÉ BOIS M2 :</p>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
